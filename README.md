@@ -68,13 +68,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Guna2 UI**: For providing the beautiful and modern UI components used in this project.
 
-## Contact
-
-For any inquiries or feedback, please contact [Emil Wijayasekara](https://github.com/EmilWijayasekara).
-```
-
 ### Notes:
 - Replace `path/to/screenshot1.png` and `path/to/screenshot2.png` with the actual paths to your screenshots.
 - Ensure the contact information and links are accurate and up-to-date.
 - Customize the content to better fit any additional details or features specific to your project.
-```
