@@ -1,6 +1,3 @@
-Sure, here's the updated `README.md` mentioning that the project is still under development:
-
-```markdown
 # ShopFusion - Shop Management System
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -21,9 +18,7 @@ ShopFusion is a comprehensive shop management system designed to streamline the 
 - **User-Friendly Interface**: Built with Guna2 UI for a sleek and modern look.
 
 ## Screenshots
-
-![Screenshot1](path/to/screenshot1.png)
-![Screenshot2](path/to/screenshot2.png)
+//
 
 ## Installation
 
@@ -82,3 +77,4 @@ For any inquiries or feedback, please contact [Emil Wijayasekara](https://github
 - Replace `path/to/screenshot1.png` and `path/to/screenshot2.png` with the actual paths to your screenshots.
 - Ensure the contact information and links are accurate and up-to-date.
 - Customize the content to better fit any additional details or features specific to your project.
+```
