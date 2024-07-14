@@ -11,7 +11,7 @@ namespace ShopFusion___Shop_Management_System
     internal class ConnectToSQLServer
     {
         SqlConnection connection;
-        public static string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Emil\\Documents\\shopFusionDB.mdf;Integrated Security=True;Connect Timeout=30";
+        public static string connectionString = "Data Source=buq9yllhgfy5fzkk4j39-mysql.services.clever-cloud.com,3306;Database=buq9yllhgfy5fzkk4j39;Application Name=ShopFusion;Integrated Security=sspi;";
 
         public SqlConnection connect()
         {
