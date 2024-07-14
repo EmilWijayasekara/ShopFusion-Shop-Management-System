@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace ShopFusion___Shop_Management_System
 {
@@ -41,10 +35,10 @@ namespace ShopFusion___Shop_Management_System
                 ConnectToSQLServer connectToSQLServer = new ConnectToSQLServer();
                 connection = connectToSQLServer.connect();
 
-                SqlCommand command = new SqlCommand("SELECT * FROM loginUsers WHERE userName=@userName AND userPassword=@userPassword",connection);
+                SqlCommand command = new SqlCommand("SELECT * FROM loginUsers WHERE userName=@userName AND userPassword=@userPassword", connection);
 
                 command.Parameters.AddWithValue("@username", userName);
-                command.Parameters.AddWithValue ("@userPassword", userPassword);
+                command.Parameters.AddWithValue("@userPassword", userPassword);
 
                 SqlDataAdapter adapter = new SqlDataAdapter(command);
                 DataSet dataSet = new DataSet();
@@ -52,7 +46,7 @@ namespace ShopFusion___Shop_Management_System
 
                 int isValid = dataSet.Tables[0].Rows.Count;
 
-                if(isValid == 1)
+                if (isValid == 1)
                 {
                     MessageBox.Show("Succsel", "ShopFusion - Login Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
@@ -69,10 +63,10 @@ namespace ShopFusion___Shop_Management_System
             }
             finally
             {
-                if(connection != null)
+                if (connection != null)
                 {
                     connection.Close();
-                    
+
                 }
                 guna2TextBox_Username_LoginFrame.Clear();
                 guna2TextBox_Password_LoginFrame.Clear();
